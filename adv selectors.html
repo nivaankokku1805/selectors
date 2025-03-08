@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .two[type="text"]{
+            border: 3px solid red ;
+        }
+        .three[type="number"]{
+            border: 3px solid blue
+        }
+        ul>li{
+            color: darkgoldenrod;
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+        h1 + p{
+            color: darkorange;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        a:hover{
+            color: darkblue;
+            font-size: 30px;
+        }
+        a: :active{
+            color : dark yellow
+        }
+         a: :visited{
+            color : dark yellow
+        }
+        li : :nth-child(2){
+            font size :calibory
+        }
+        div:not(.parent1){
+            color: blueviolet;
+            font-size: 30px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="parent1">div1</div>
+    <div class="parent2">div1</div>
+
+    <!--sibling selectors-->
+    <h1>Advance selecters</h1>
+    <p>para1</p>
+    <p>para2</p>
+
+    <!--attribute selecter-->
+<form>
+ <input class="two" type="text" placeholder="enter your name">
+<input class="three" type="number" placeholder="enter your mobile number">
+ 
+
+    </form>
+   <!--child selecter--> 
+
+    <ul>
+        <li>item1</li>
+        <li>item1</li>
+        <li>item1</li>
+
+    </ul>
+    <!--psuedoc classes state of an element -->
+
+    <a href="media.html"> media file we created together</a>
+    
+    
+    
+    
+    
+
+    
+</body>
+</html>
